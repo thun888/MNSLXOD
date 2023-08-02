@@ -20,7 +20,7 @@ config = Config()
 ###配置区###
 config.bind = ["0.0.0.0:45678"]  # 自行更改端口
 config.protocol = "h2"  # 启用HTTP2
-#注意需要替换为你的证书路径
+#注意需要替换为你的证书路径，不用就连带下面两行注释掉
 config.certfile = "./pem.pem"
 config.keyfile = "./key.key"
 #访问日志目录
